@@ -45,7 +45,8 @@ defmodule Mango.Mixfile do
       {:cowboy, "~> 1.0"},
       {:dialyxir, "~> 0.5", only: [:dev, :test]},
       {:excoveralls, "~> 0.7", only: :test},
-      {:stream_data, "~> 0.4.2"}
+      {:stream_data, "~> 0.4.2"},
+      {:hound, "~> 1.0"}
     ]
   end
 

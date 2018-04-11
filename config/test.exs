@@ -2,7 +2,9 @@ use Mix.Config
 
 config :mango, MangoWeb.Endpoint,
   http: [port: 4001],
-  server: false
+  server: true
+
+config :hound, driver: "phantomjs"
 
 config :logger, level: :warn
 
